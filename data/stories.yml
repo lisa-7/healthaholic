@@ -1,0 +1,187 @@
+version: "3.0"
+
+stories:
+
+- story: greetings
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- story: goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: reply
+  steps:
+  - intent: reply
+  - action: utter_reply
+  - action: utter_ask
+
+
+- story: question
+  steps:
+  - intent: question
+  - action: utter_question
+  - action: utter_ask
+
+- story: ask website
+  steps:
+  - intent: website
+  - action: utter_website
+  - action: utter_did_that_help
+
+- story: understood
+  steps:
+  - intent: ok
+  - action: utter_more_questions
+
+- story: event
+  steps:
+  - intent: events
+  - action: utter_events
+  - action: utter_did_that_help
+
+- story: bot_challenge
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+- story: contacting
+  steps:
+  - intent: contact
+  - action: utter_contact
+  - action: utter_did_that_help
+
+- story: annoucements
+  steps:
+    - intent: annoucements
+    - action: utter_annoucements
+    - action: utter_did_that_help
+    - action: utter_more_questions
+
+- story: no_more
+  steps:
+  - intent: no_more
+  - action: utter_going
+
+
+- story: seeyou
+  steps:
+  - intent: seeyou
+  - action: utter_seeyou
+
+- story: help
+  steps:
+  - intent: help
+  - action: utter_help
+
+- story: affirm
+  steps:
+  - intent: affirm
+  - action: utter_affirm
+  - action: utter_more_questions
+
+- story: deny
+  steps:
+  - intent: deny
+  - action: utter_deny
+  - action: utter_more_questions
+
+- story: mental_health
+  steps:
+  - intent: mental_health
+  - action: utter_mental_health
+  - action: utter_did_that_help
+  - action: utter_more_questions
+
+- story: depression
+  steps:
+  - intent: depression
+  - action: utter_depression
+  - action: utter_did_that_help
+  - action: utter_more_questions
+
+- story: stress
+  steps:
+  - intent: stress
+  - action: utter_stress
+  - action: utter_did_that_help
+  - action: utter_more_questions
+
+- story: anxiety
+  steps:
+  - intent: anxiety
+  - action: utter_anxiety
+  - action: utter_did_that_help
+  - action: utter_more_questions
+
+- story: panic
+  steps:
+  - intent: panic
+  - action: utter_panic
+  - action: utter_did_that_help
+  - action: utter_more_questions
+
+- story: anger
+  steps:
+  - intent: anger
+  - action: utter_anger
+  - action: utter_did_that_help
+  - action: utter_more_questions
+
+- story: bipolar_disorder
+  steps:
+  - intent: bipolar_disorder
+  - action: utter_bipolar_disorder
+  - action: utter_did_that_help
+  - action: utter_more_questions
+
+- story: phobia
+  steps:
+  - intent: phobia
+  - action: utter_phobia
+  - action: utter_did_that_help
+  - action: utter_more_questions
+
+- story: psychosis
+  steps:
+  - intent: psychosis
+  - action: utter_psychosis
+  - action: utter_did_that_help
+  - action: utter_more_questions
+
+- story: personality_disorder
+  steps:
+  - intent: personality_disorder
+  - action: utter_personality_disorder
+  - action: utter_did_that_help
+  - action: utter_more_questions
+
+- story: trauma
+  steps:
+  - intent: trauma
+  - action: utter_trauma
+  - action: utter_did_that_help
+  - action: utter_more_questions
+
+- story: schizophrenia
+  steps:
+  - intent: schizophrenia
+  - action: utter_schizophrenia
+  - action: utter_did_that_help
+  - action: utter_more_questions
+
+- story: bpd
+  steps:
+  - intent: bpd
+  - action: utter_bpd
+  - action: utter_did_that_help
+  - action: utter_more_questions
+
+- story: dementia
+  steps:
+  - intent: dementia
+  - action: utter_dementia
+  - action: utter_did_that_help
+  - action: utter_more_questions

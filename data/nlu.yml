@@ -1,0 +1,439 @@
+version: "3.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - morning
+    - hey there
+    - let's go
+    - hey dude
+    - hey buddy
+    - goodmorning
+    - goodevening
+    - good afternoon
+    - heyya
+    - hie
+    - hi there
+    - hey there
+    - hello chatbot
+    - good morning bot
+    - hi healtholic 
+    - hey bro
+    - hiiiee
+
+- intent: goodbye
+  examples: |
+    - bye
+    - goodbye
+    - bye bye
+    - byee
+    - thanks for the help
+    - tata 
+    - good by
+    - i will get going 
+    - i have to go
+    - gotta go 
+    
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+    - yeah 
+    - sure 
+    - yaa
+    - ya 
+    - sure thing 
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+    - no thankyou 
+    - i cant
+    - cant
+
+- intent: no_more
+  examples: |
+    - thats all 
+    - no thank you 
+    - thats enough
+    - nothing
+    - thats fine
+    - i have nothing else
+    - over
+    - enough
+    
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+    - who are you?
+    - what arew you made of?
+    - who made you?
+
+- intent: thank
+  examples: |
+    - thank you
+    - thanks
+    - thank
+    - thank you for the help
+    - thanks for the help
+    - thanks for your help
+    - thank you for your help
+
+- intent: ok
+  examples: |
+    - ok
+    - okay
+    - k
+    - thats fine
+    - understood
+    - got it
+
+- intent: events
+  examples: |
+    - event
+    - events
+    - health events
+    - mental health events 
+
+- intent: contact
+  examples: |
+    - contact
+    - contact of hospital
+    - mental health help line number 
+    - helpline
+    - help number
+    - number for emergency
+    -i need helpline
+    - helpline number 
+    - emergency number
+
+- intent: newsletter
+  examples: |
+    - newsletter
+    - news letter
+    - newsletters
+    - news letters
+
+- intent: annoucments
+  examples: |
+    - notice
+    - notices
+    - notice board
+    - announcements
+    - announcement
+    - events held
+    - events to be held
+
+- intent: seeyou
+  examples: |
+    - cu
+    - see you next time
+    - cee you later
+    - good night
+    - have a nice day
+    - see you around
+    - see you later
+
+- intent: reply
+  examples: |
+    - i am fine
+    - good
+    - very well
+    - good,thankyou
+    - i am good
+    - i feel well
+    - well
+    - amazing
+    - nice
+    - i am doing well
+    - i am great
+    - fine
+
+- intent: question
+  examples: |
+    - i am fine, how are you 
+    - how are you
+    - how about you 
+    - how have you been
+    - what about you 
+    - i am great, you 
+    - you 
+    - how you doing
+
+- intent: help
+  examples: |
+    - can you help me get some info
+    - can you help me get information 
+    - information
+    - info 
+    - i need info
+    - i need information
+    - details
+    - i need details
+    - results
+    - i need result on some info 
+    - i need info on some information
+
+- intent: website
+  examples: |
+    - what is this website about 
+    - what is healtholic about 
+    - why did you make healtholic 
+    - healtholic 
+    - this website 
+    - can i know more about the website 
+    - what website is this
+    - what is healholic 
+    - what makes you healtholic 
+    
+- intent: mental_health
+  examples: |
+    - what is mental health 
+    - does mental health exist 
+    - mental health
+    - health 
+    - different type of mental health
+    - whats mental health 
+    - can i know more about mental health 
+    - is mental health necessary 
+    - why mental health 
+    - anything about mental health 
+    - why do people have mental issues 
+    - mental issues 
+    - mental problems
+    - different type of mental probblems 
+    - what are mental issues 
+    - why are mental issues caused 
+    - what are different mental problem 
+    - why do people have mental problem 
+    - what are mental problems
+    - type of mental health 
+    - type of mental problems
+    - type of mental issues 
+
+- intent: depression
+  examples: |
+    - what is depression 
+    - why is depression caused 
+    - whats depression 
+    - depression 
+    - information about depression
+    - info on depression 
+    - what is depression about 
+    - what causes depression 
+    - different type of depression
+    - type of depression
+
+- intent: stress
+  examples: |
+    - what is stress 
+    - why is stress caused 
+    - whats stress 
+    - stress 
+    - information about stress
+    - info on stress 
+    - what is stress about 
+    - what causes stress
+    - different type of stress
+    - type of stress
+
+- intent: anxiety
+  examples: |
+    - what is anxiety 
+    - why is anxiety caused 
+    - whats anxiety 
+    - anxiety 
+    - information about anxiety
+    - info on anxiety 
+    - what is anxiety about 
+    - what causes anxiety
+    - different type of anxiety
+    - typr of anxiety
+
+- intent: anger
+  examples: |
+    - what is anger 
+    - why is anger caused 
+    - whats anger 
+    - anger 
+    - information about anger
+    - info on anger 
+    - what is anger about 
+    - what causes anger
+    - different type of anger
+    - type of anger 
+
+- intent: panic
+  examples: |
+    - what is panic 
+    - why is panic caused 
+    - whats panic 
+    - panic 
+    - information about panic
+    - info on panic 
+    - what is panic about 
+    - what causes panic
+    - different type of panic 
+    - type of panics
+
+- intent: bipolar_disorder
+  examples: |
+    - what is bipolar disorder 
+    - why is bipolar disorder caused 
+    - whats bipolar disorder 
+    - bipolar disorder 
+    - information about bipolar disorder
+    - info on bipolar disorder 
+    - what is bipolar disorder about 
+    - what causes bipolar disorder
+    - different type of bipolar disoders
+    - type of bipolar disorders
+
+- intent: phobias
+  examples: |
+    - what is phobias 
+    - why is phobias caused 
+    - whats phobias 
+    - phobias 
+    - information about phobias
+    - info on phobias 
+    - what is phobias about 
+    - what causes phobias
+    - different type of phobias
+    - type of phobias 
+
+- intent: psychosis
+  examples: |
+    - what is psychosis 
+    - why is psychosis caused 
+    - whats psychosis 
+    - psychosis 
+    - information about psychosis
+    - info on psychosis 
+    - what is psychosis about 
+    - what causes psychosis
+    - different type of psychosis
+    - type of psychosis 
+
+- intent: personality_disorder
+  examples: |
+    - what is personality disorder  
+    - why is personality disorder caused 
+    - whats personality disorder 
+    - personality disorder 
+    - information about personality disorder
+    - info on personality disorder 
+    - what is personality disorder about 
+    - what causes personality disorder
+    - different type of personality disorder
+    - type of personality disorder
+
+- intent: trauma
+  examples: |
+    - what is trauma 
+    - why is trauma caused 
+    - whats trauma 
+    - trauma 
+    - information about trauma
+    - info on trauma 
+    - what is trauma about 
+    - what causes trauma
+    - different type of trauma
+    - type of trauma 
+
+- intent: schizophrenia
+  examples: |
+    - what is schizophrenia 
+    - why is schizophrenia caused 
+    - whats schizophrenia 
+    - schizophrenia 
+    - information about schizophrenia
+    - info on schizophrenia 
+    - what is schizophrenia about 
+    - what causes schizophrenia
+    - different type of schizophrenia
+    - type of schizophrenia
+
+- intent: bpd
+  examples: |
+    - what is bpd 
+    - what is borderline personality disorder
+    - why is bpd caused 
+    - whats bpd 
+    - bpd 
+    - borderline personality disorder
+    - information about bpd
+    - info on bpd 
+    - information on borderline personality disorder
+    - what is bpd about 
+    - what causes bpd
+    - different type of bpd
+    - type of bpd
+
+- intent: dementia
+  examples: |
+    - what is dementia 
+    - why is dementia caused 
+    - whats dementia 
+    - dementia 
+    - information about dementia
+    - info on dementia 
+    - what is dementia about 
+    - what causes dementia
+    - different type of dementia
+    - type of dementia

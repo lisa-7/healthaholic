@@ -1,0 +1,167 @@
+version: "3.0"
+
+intents:
+
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - thank
+  - bot_challenge
+  - website
+  - ok
+  - events
+  - contact
+  - annoucements
+  - location_question
+  - location
+  - seeyou
+  - question
+  - reply
+  - help
+  - no_more
+  - mental_health
+  - depression
+  - stress
+  - anxiety
+  - panic
+  - anger
+  - bipolar_disorder
+  - phobia
+  - psychosis
+  - personality_disorder
+  - trauma
+  - schizophrenia
+  - bpd
+  - dementia
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_welcome:
+    - text: "You're Welcome"
+
+  utter_ask:
+    - text: "How can I help you?"
+
+  utter_how_can_i_help:
+    - text: "Hi. My name is healtholic. How can I help you today?"
+
+  utter_website:
+    - text: "Our website is know as healtholic, i am its only bot. our website gives information about mental disorders, i can help you with other things like annoucements, events, news, contact info for hospital etc. hope you have a good time"
+
+  utter_goodbye:
+    - text: "Bye"
+
+  utter_going:
+    - text: "thanks for visiting, lets meet again soon"
+
+  utter_seeyou:
+    - text: "see you soon"
+
+  utter_iamabot:
+  - text: "I am a bot,my name is healthy from healtholic website"
+
+  utter_more_questions:
+  - text: "What more do you want to know?"
+
+  utter_events :
+  - text: "Check out the latest events here: http: "
+
+  utter_contact:
+  - text: "The social justice and empowerment ministry has set up the toll-free number (1800-599-0019) to encourage people to reach out for help."
+
+  utter_notice:
+    - text: "Check out the latest Notices here: http: "
+
+  utter_annoucements:
+    - text: "Check out the latest Announcements here: http: "
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_reply:
+  - text: "that's good to know"
+
+  utter_question:
+  - text: "i am great, amazed to be with you"
+
+  utter_help:
+  - text: "what do you need information about"
+
+  utter_affirm:
+  - text: "that's wonderful"
+
+  utter_deny:
+  - text: "sorry to know that"
+
+  utter_mental_health:
+    - text: "Mental health includes our emotional, psychological, and social well-being. It affects how we think, feel, and act. It also helps determine how we handle stress, relate to others, and make choices. Mental health is important at every stage of life, from childhood and adolescence through adulthood.
+    \nto know more click on  "
+
+  utter_depression:
+    - text: "Depression (major depressive disorder) is a common and serious medical illness that negatively affects how you feel, the way you think and how you act. Fortunately, it is also treatable. Depression causes feelings of sadness and/or a loss of interest in activities you once enjoyed. It can lead to a variety of emotional and physical problems and can decrease your ability to function at work and at home.
+      \n  to know more click on  "
+
+  utter_stress:
+    - text: "Stress is a feeling of emotional or physical tension. It can come from any event or thought that makes you feel frustrated, angry, or nervous. Stress is your body's reaction to a challenge or demand. In short bursts, stress can be positive, such as when it helps you avoid danger or meet a deadline.
+     \n   to know more click on  "
+
+  utter_anxiety:
+    - text: " Anxiety is an emotion characterized by feelings of tension, worried thoughts and physical changes like increased blood pressure. People with anxiety disorders usually have recurring intrusive thoughts or concerns. They may avoid certain situations out of worry.
+      \n  to know more click on  "
+
+  utter_panic:
+    - text: " A panic attack is a sudden episode of intense fear that triggers severe physical reactions when there is no real danger or apparent cause. Panic attacks can be very frightening. When panic attacks occur, you might think you're losing control, having a heart attack or even dying.
+      \n  to know more click on  "
+
+  utter_anger:
+    - text: "Anger is an emotion characterized by antagonism toward someone or something you feel has deliberately done you wrong. Anger can be a good thing. It can give you a way to express negative feelings, for example, or motivate you to find solutions to problems. But excessive anger can cause problems.
+      \n  to know more click on  "
+
+  utter_bipolar_disorder:
+    - text: " A disorder associated with episodes of mood swings ranging from depressive lows to manic highs.
+The exact cause of bipolar disorder isn’t known, but a combination of genetics, environment and altered brain structure and chemistry may play a role.
+Manic episodes may include symptoms such as high energy, reduced need for sleep and loss of touch with reality. Depressive episodes may include symptoms such as low energy, low motivation and loss of interest in daily activities. Mood episodes last days to months at a time and may also be associated with suicidal thoughts.
+Treatment is usually lifelong and often involves a combination of medications and psychotherapy.
+      \n  to know more click on  "
+
+  utter_phobia:
+    - text: "A phobia is an anxiety disorder defined by a persistent and excessive fear of an object or situation. Phobias typically result in a rapid onset of fear and are usually present for more than six months. 
+      \n  to know more click on  "
+
+  utter_personality_disorder:
+    - text: "A personality disorder is a type of mental disorder in which you have a rigid and unhealthy pattern of thinking, functioning and behaving. A person with a personality disorder has trouble perceiving and relating to situations and people.
+      \n  to know more click on  "
+
+  utter_trauma:
+    - text: "Trauma is an emotional response to a terrible event like an accident, rape, or natural disaster. Immediately after the event, shock and denial are typical. Longer term reactions include unpredictable emotions, flashbacks, strained relationships, and even physical symptoms like headaches or nausea.
+      \n  to know more click on  "
+
+  utter_schizophrenia:
+    - text: "A disorder that affects a person's ability to think, feel and behave clearly. The exact cause of schizophrenia isn't known, but a combination of genetics, environment and altered brain chemistry and structure may play a role. Schizophrenia is characterised by thoughts or experiences that seem out of touch with reality, disorganised speech or behaviour and decreased participation in daily activities. Difficulty with concentration and memory may also be present. Treatment is usually lifelong and often involves a combination of medications, psychotherapy and coordinated speciality care services. 
+   \n to know more click on"
+
+  utter_psychosis:
+    - text: "A mental disorder characterised by a disconnection from reality.
+Psychosis may occur as a result of a psychiatric illness such as schizophrenia. In other instances, it may be caused by a health condition, medication or drug use.
+Possible symptoms include delusions, hallucinations, talking incoherently and agitation. The person with the condition usually isn't aware of his or her behaviour.
+Treatment may include medication and talk therapy.
+     \n to know more click on"
+
+  utter_bpd:
+    - text: "Borderline personality disorder is a mental health disorder that impacts the way you think and feel about yourself and others, causing problems functioning in everyday life. It includes self-image issues, difficulty managing emotions and behavior, and a pattern of unstable relationships.
+     \n to know more click on"
+
+  utter_dementia:
+    - text: "A group of thinking and social symptoms that interferes with daily functioning.
+Not a specific disease, dementia is a group of conditions characterised by impairment of at least two brain functions, such as memory loss and judgement.
+Symptoms include forgetfulness, limited social skills and thinking abilities so impaired that it interferes with daily functioning.
+Medication and therapies may help manage symptoms. Some causes are reversible.
+\n to know more click on:
+\n "
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
